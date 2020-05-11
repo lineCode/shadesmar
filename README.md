@@ -138,7 +138,8 @@ void callback(shm::memory::Ptr *msg) {
   // The memory will be free'd at the end of this callback.
   // Copy to another memory location if you want to persist the data.
   // Alternatively, if you want to avoid the copy, you can call
-  // `msg->persist()` that won't delete the memory after callback.
+  // `msg->no_delete()` which prevents the memory from being deleted
+  // at the end of the callback.
 }
 
 int main() {
