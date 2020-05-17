@@ -1,5 +1,7 @@
 ### Shadesmar
 
+[Soulcast](https://stormlightarchive.fandom.com/wiki/Soulcasting) [hoid](https://stormlightarchive.fandom.com/wiki/Hoid) pointers.
+
 An IPC library that uses the system's shared memory to pass messages. 
 The communication paradigm is either publish-subscibe or RPC similar to ROS and ROS2.
 The library was built to be used within [Project MANAS](http://projectmanas.in/).
